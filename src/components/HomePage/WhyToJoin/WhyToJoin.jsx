@@ -74,8 +74,7 @@ function WhyToJoin() {
           </div>
         </div>
 
-      {/* </div> */}
-      {/* <div className=" flex justify-center items-center gap-4 mb-4 xl:flex-col"> */}
+     
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
