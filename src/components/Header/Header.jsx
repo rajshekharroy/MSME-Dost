@@ -31,10 +31,10 @@ function Header({setShowLogin}) {
             </div>
             <div className=" flex gap-3 justify-center items-center">
                 <div className=' flex gap-4 mr-4 sm:hidden'>
-                <FontAwesomeIcon icon={faYoutube} />
-                <FontAwesomeIcon icon={faFacebook} />
-                <FontAwesomeIcon icon={faInstagram} />
-                <FontAwesomeIcon icon={faLinkedin} />
+                <a href="https://www.youtube.com/@msmedost" target='_blank'><FontAwesomeIcon icon={faYoutube} /></a>
+                <a href="https://www.facebook.com/msmedost" target='_blank'><FontAwesomeIcon icon={faFacebook} /></a>
+                <a href="https://www.instagram.com/msmedost/" target='_blank'><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="https://www.linkedin.com/company/msmedost/" target='_blank'><FontAwesomeIcon icon={faLinkedin} /></a>
                 </div>
                 <button className=' bg-gray-300 text-black rounded-md p-1 transition-all duration-500 text-sm hover:bg-gray-200 md:hidden'>FAQs</button>
                 <button className=' bg-gray-300 text-black rounded-md p-1 transition-all duration-500 text-sm hover:bg-gray-200 md:hidden'>Testimonials</button>
