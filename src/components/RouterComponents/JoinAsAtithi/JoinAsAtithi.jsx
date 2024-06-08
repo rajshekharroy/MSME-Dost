@@ -35,7 +35,7 @@ function JoinAsAtithi() {
     <div className="bg-gray-100">
       
         <img
-          className=" w-screen h-[50vh] object-cover mb-10"
+          className=" w-screen h-[40vh] object-cover mb-10 sm:h-[20vh]"
           src="https://images.unsplash.com/photo-1556741533-411cf82e4e2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
         />

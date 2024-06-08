@@ -26,8 +26,8 @@ function Header({setShowLogin}) {
       <div className=' absolute w-screen top-0 left-0 z-10 md:static'>
         <div className=" flex justify-around bg-black text-white w-full h-10 bg-opacity-70">
             <div className=" flex gap-10 justify-center items-center md:text-sm md:w-full md:px-2 md:justify-evenly md:gap-4">
-                <p className=' flex justify-center items-center gap-2'><FontAwesomeIcon icon={faEnvelope}/>msmedostskj@gmail.com</p>
-                <p className=' flex justify-center items-center gap-2'><FontAwesomeIcon icon={faPhone} />+91 85828 48434</p>
+                <a href="mailto:msmedostskj@gmail.com" className=' flex justify-center items-center gap-2'><FontAwesomeIcon icon={faEnvelope}/>msmedostskj@gmail.com</a>
+                <a href='tel:+918582848434' className=' flex justify-center items-center gap-2'><FontAwesomeIcon icon={faPhone} />+91 85828 48434</a>
             </div>
             <div className=" flex gap-3 justify-center items-center">
                 <div className=' flex gap-4 mr-4 sm:hidden'>

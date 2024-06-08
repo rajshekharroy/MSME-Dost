@@ -16,7 +16,7 @@ function WhyToJoin() {
         </p>
       </div>
       <div className=" flex justify-center items-center gap-4 mb-4 flex-wrap px-44 2xl:px-10 sm:px-2">
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl h-[500px]">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -35,7 +35,7 @@ function WhyToJoin() {
             </p>
           </div>
         </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl h-[500px]">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -54,7 +54,7 @@ function WhyToJoin() {
             </p>
           </div>
         </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl h-[500px]">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -75,7 +75,7 @@ function WhyToJoin() {
         </div>
 
      
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl h-[500px]">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -94,7 +94,7 @@ function WhyToJoin() {
             </p>
           </div>
         </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl h-[500px]">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -113,7 +113,7 @@ function WhyToJoin() {
             </p>
           </div>
         </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl h-[500px]">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -134,30 +134,7 @@ function WhyToJoin() {
         </div>
 
       </div>
-      {/* <div className=' flex gap-5 px-60 xl:px-20 pt-5 text-center text-2xl lg2:flex-col'>
-        <div className=' w-1/2 bg-blue-600 text-white relative p-5 rounded-lg hover:bg-blue-500 transition-all duration-200 lg2:w-full'>
-        <FaBriefcase className=' absolute text-4xl'/>
-        <h1 className=' md:ml-10'>Business Networking</h1>
-        <p className=' text-left pl-16 p-4 text-base'>Connect with like-minded entrepreneurs and professionals to expand your business network and discover new opportunities for growth and collaboration.</p>
-        </div>
-        <div className=' w-1/2 bg-blue-600 text-white relative p-5 rounded-lg hover:bg-blue-500 transition-all duration-200 lg2:w-full'>
-        <BsCardChecklist className=' absolute text-4xl'/>
-        <h1 className=' md:ml-10'>Knowledge Exchange</h1>
-        <p className=' text-left pl-16 p-4 text-base'>Engage in informative sessions, educational presentations, and 1-2-1 meetings to gain valuable insights, learn from industry experts, and enhance your business acumen.</p>
-        </div>
-    </div>
-    <div className=' flex gap-5 px-60 xl:px-20 pt-5 text-center text-2xl lg2:flex-col'>
-        <div className=' w-1/2 bg-blue-600 text-white relative p-5 rounded-lg hover:bg-blue-500 transition-all duration-200 lg2:w-full'>
-        <FaBriefcase className=' absolute text-4xl'/>
-        <h1 className=' md:ml-10'>Business Networking</h1>
-        <p className=' text-left pl-16 p-4 text-base'>Connect with like-minded entrepreneurs and professionals to expand your business network and discover new opportunities for growth and collaboration.</p>
-        </div>
-        <div className=' w-1/2 bg-blue-600 text-white relative p-5 rounded-lg hover:bg-blue-500 transition-all duration-200 lg2:w-full'>
-        <BsCardChecklist className=' absolute text-4xl'/>
-        <h1 className=' md:ml-10'>Knowledge Exchange</h1>
-        <p className=' text-left pl-16 p-4 text-base'>Engage in informative sessions, educational presentations, and 1-2-1 meetings to gain valuable insights, learn from industry experts, and enhance your business acumen.</p>
-        </div>
-    </div> */}
+      
     </div>
   );
 }

@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div>
       <img
-        className=" w-screen "
+        className=" w-screen h-[40vh] object-cover mb-10 sm:h-[10vh] "
         src="https://t3.ftcdn.net/jpg/05/30/96/04/360_F_530960431_c8fPd3HansYvrSJ4fJxZqp9OhjQmYoll.jpg"
         alt=""
       />

@@ -8,6 +8,8 @@ import { Route, Routes } from 'react-router-dom'
 import HomePage from './components/HomePage/HomePage'
 import Contact from './components/RouterComponents/Contact/Contact'
 import JoinAsAtithi from './components/RouterComponents/JoinAsAtithi/JoinAsAtithi'
+import { Rotate } from 'hamburger-react'
+import Gallery from './components/Gallery/Gallery'
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />}/>
         <Route path='/contact' element={<Contact />}/>
-        <Route path='atithi' element={<JoinAsAtithi />}/>
+        <Route path='/atithi' element={<JoinAsAtithi />}/>
+        <Route path='/gallery' element={<Gallery />}/>
         </Routes>
       <Footer />
      </div>

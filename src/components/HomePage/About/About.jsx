@@ -5,6 +5,7 @@ import {
   RiStoreLine,
 } from "react-icons/ri";
 
+
 import aboutImage1 from "../../../assets/670571616555372.png";
 import aboutImage2 from "../../../assets/tabs-2.jpg";
 import aboutImage3 from "../../../assets/tabs-3.jpg";
@@ -14,8 +15,8 @@ import { useState } from "react";
 function About() {
   const [selected, setSelected] = useState("first");
   return (
-    <div className=" py-10 mb-10">
-      <div className=" py-4 flex gap-6 justify-center m-10 flex-wrap sm:gap-4 sm:mx-0">
+  <div className=" py-10 mb-10 bg-gradient-to-r from-sky-50 via-purple-50 to-fuchsia-50" >
+      <div className=" py-4 flex gap-6 justify-center m-10 flex-wrap sm:gap-4 sm:mx-0 sm:m-0">
         <div
           className={`text-xl flex items-center w-72 h-24 justify-center border-[0.5px] border-opacity-30 border-black hover:text-fuchsia-800 cursor-pointer transition-all duration-300 px-2 xl2:w-64 xl:w-52 lg:w-40 lg2:w-32 md:w-28 sm:w-16 sm:h-16   ${
             selected === "first"
