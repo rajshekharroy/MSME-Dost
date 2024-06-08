@@ -4,6 +4,8 @@ import teamImages from "./teamImages";
 import { useEffect, useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function ServicesAndTeam() {
   const [width, setWidth] = useState(0);
@@ -11,9 +13,11 @@ function ServicesAndTeam() {
 
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+    Aos.init({ duration: 1000 });
   }, []);
+  
   return (
-    <div className=" bg-gradient-to-r from-purple-50 to-blue-50">
+    <div data-aos="fade-up" className=" bg-gradient-to-r from-purple-50 to-blue-50">
       <div className=" p-4 mt-10 text-center">
         <h1 className=" text-2xl font-bold text-center mb-4">OUR TEAM</h1>
         <p>

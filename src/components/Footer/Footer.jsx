@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer'>
       <div className='flex p-10 justify-evenly gap-10 text-white lg2:flex-col'>
             <div className=' flex flex-col gap-4 z-10'>
-              <img src={logo} alt="" />
+              <Link to="/"><img src={logo} alt="" /></Link>
               <p>Kolkata 700001, India</p>
               <a href="tel:+918582848434">Phone: +91 85828 48434</a>
               <a href="mailto:msmedostskj@gmail.com">Email: msmedostskj@gmail.com</a>

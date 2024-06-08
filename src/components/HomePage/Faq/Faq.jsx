@@ -1,11 +1,17 @@
 import { RxCross2 } from "react-icons/rx";
 import { IoIosArrowDown } from "react-icons/io";
 import questionAnswer from "./faqQuestionAnswer";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 const Faq = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: 50 });
+    
+  }, []);
   // const [isOpen, setIsOpen] = useState(false);
   // const [answerHeight, setAnswerHeight] = useState("0px");
   // const answerRef = useRef(null);
@@ -49,7 +55,7 @@ const Faq = () => {
         />
       </div>
       {questionAnswer.map((item, index) => (
-        <div key={index}>
+        <div data-aos="fade-up" key={index}>
   <div className=" flex justify-between items-center rounded cursor-pointer mt-4 border-b-[0.5px] pb-4 border-gray-200" onClick={() => toggleOpen(index)}>
     <span style={{fontFamily: '"Amaranth", sans-serif'}} className={` pt-5 text-gray-600 text-xl hover:text-blue-500 transition-all duration-300 ${isDarkMode ? " text-slate-200 hover:text-slate-400" : ""}`}>{item.question}</span>
     <IoIosArrowDown className={` transition-all duration-300 ${openStates[index] ? ' rotate-180' : ' rotate-0'} text-3xl`} />

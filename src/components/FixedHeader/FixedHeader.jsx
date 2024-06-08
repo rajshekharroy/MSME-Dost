@@ -36,7 +36,7 @@ function FixedHeader({setShowLogin}) {
       </ul>
       </div>
       <div className=' flex justify-around items-center h-20 bg-white bg-opacity-70'>
-          <img src={logo} alt="" className=' w-40'/>
+          <Link to="/"><img src={logo} alt="" className=' w-40'/></Link>
           <div>
             <ul className=' flex gap-5 lg2:hidden'>
               <Link to="/"><li>Home</li></Link>

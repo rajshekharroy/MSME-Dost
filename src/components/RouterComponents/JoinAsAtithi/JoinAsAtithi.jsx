@@ -1,11 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import atithiimg from "../../../assets/4937376232777325.jpg";
 import indianStatesAndUTs from "../../StateArray";
 import businessCategory from "../../BusinessCategoryArray";
 import { Select, Option, Button } from "@material-tailwind/react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 function JoinAsAtithi() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   const [userMobileValue, setUserMobileValue] = useState("");
   const [introducerMobileValue, setIntroducerMobileValue] = useState("");
   const [pincodeValue, setPincodeValue] = useState("");
@@ -41,7 +46,7 @@ function JoinAsAtithi() {
         />
    
       <h1 className=" text-center text-3xl font-medium mb-10">ABOUT MSME DOST</h1>
-      <div className=" flex justify-center gap-10 p-4 lg:flex-col">
+      <div data-aos="fade-up" className=" flex justify-center gap-10 p-4 lg:flex-col">
         <form
           className=" bg-white shadow-xl flex gap-4 flex-col p-8 rounded-md"
           action=""

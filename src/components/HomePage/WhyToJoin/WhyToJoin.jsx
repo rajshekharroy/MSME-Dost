@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 function WhyToJoin() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div>
-      <div>
+      <div data-aos="fade-up">
         <h1 className=" text-center text-2xl font-semibold">
           WHY TO JOIN MSME DOST
         </h1>
@@ -16,7 +21,7 @@ function WhyToJoin() {
         </p>
       </div>
       <div className=" flex justify-center items-center gap-4 mb-4 flex-wrap px-44 2xl:px-10 sm:px-2">
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
+      <div data-aos="fade-up" className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -35,7 +40,7 @@ function WhyToJoin() {
             </p>
           </div>
         </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
+      <div data-aos="fade-up" className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -54,7 +59,7 @@ function WhyToJoin() {
             </p>
           </div>
         </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
+      <div data-aos="fade-up" className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -75,7 +80,7 @@ function WhyToJoin() {
         </div>
 
      
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
+      <div data-aos="fade-up" className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -94,7 +99,7 @@ function WhyToJoin() {
             </p>
           </div>
         </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
+      <div data-aos="fade-up" className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"
@@ -113,7 +118,7 @@ function WhyToJoin() {
             </p>
           </div>
         </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
+      <div data-aos="fade-up" className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:bg-white h-[500px]">
           <div className=" p-4 overflow-hidden h-64">
             <img
               className=" h-full  w-full transition-all duration-300 rounded-t-lg object-cover"

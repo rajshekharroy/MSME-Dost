@@ -2,34 +2,40 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Contact() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div>
       <img
-        className=" w-screen h-[40vh] object-cover mb-10 sm:h-[10vh] "
+        className=" w-screen h-[40vh] object-cover  sm:h-[10vh] "
         src="https://t3.ftcdn.net/jpg/05/30/96/04/360_F_530960431_c8fPd3HansYvrSJ4fJxZqp9OhjQmYoll.jpg"
         alt=""
       />
       
-      <div className="w-screen bg-gray-100 p-10 flex gap-5 justify-between items-start lg2:flex-col xl2:flex-col xl2:items-center">
+      <div data-aos="fade-up" className=" w-screen bg-gray-100 p-10 flex gap-5 justify-between items-start lg2:flex-col xl2:flex-col xl2:items-center">
 
        <div className=" flex flex-col gap-4 w-full">
         <div className=" text-center p-4 bg-white h-40 shadow-2xl flex flex-col items-center ">
        <FaLocationDot className=" border-2 border-yellow-700 border-dotted rounded-full text-5xl p-3"/>
         <h1 className=" font-semibold text-lg text-gray-500">Our Address</h1>
-        <p>Kolkata,West Bengal 700001</p>
+        <p className=" text-gray-500">Kolkata,West Bengal 700001</p>
         </div>
         <div className=" flex gap-5 sm:flex-col">
           <div className=" bg-white h-40 shadow-2xl w-full flex flex-col items-center p-4">
           <MdEmail className=" border-2 border-yellow-700 border-dotted rounded-full text-5xl p-3"/>
             <h1 className=" font-semibold text-lg text-gray-500">Email Us</h1>
-            <a href="mailto:msmedostskj@gmail.com">msmedostskj@gmail.com</a>
+            <a className=" text-gray-500" href="mailto:msmedostskj@gmail.com">msmedostskj@gmail.com</a>
           </div>
           <div className=" bg-white h-40 shadow-2xl w-full flex flex-col items-center p-4">
           <IoCall className=" border-2 border-yellow-700 border-dotted rounded-full text-5xl p-3"/>
             <h1 className=" font-semibold text-lg text-gray-500">Call Us</h1>
-            <a href="tel:+918582848434">+91 85828 48434</a>
+            <a className=" text-gray-500" href="tel:+918582848434">+91 85828 48434</a>
           </div>
         </div>
         </div> 
